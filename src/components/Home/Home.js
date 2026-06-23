@@ -42,7 +42,6 @@ function Home() {
                   }}>
           <div className="profile-pic-container"/>
                </div>
-              {/* <img src={myImg} className="profile-pic" alt="avatar" /> */}
             </Col>
           </Row>
         </Container>

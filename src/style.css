@@ -264,7 +264,7 @@ html {
 }
 
 .home-content {
-  padding: 3rem 0 0rem !important;
+  padding: 3rem 0 0rem ;
   color: #414141;
   text-align: left;
 }
@@ -326,7 +326,7 @@ html {
 
 .home-about-section {
   position: relative;
-  padding-bottom: 70px !important;
+  padding-bottom: 70px ;
 }
 
 .home-about-description {
@@ -555,8 +555,8 @@ html {
 
 .about-section {
   position: relative !important;
-  padding-top: 100px !important;
-  padding-bottom: 30px !important;
+  padding-top: 100px ;
+  padding-bottom: 30px ;
   background-image: var(--section-background-color) !important;
   color: #414141 !important;
 }
@@ -816,7 +816,7 @@ html {
   }
 }
 
-.profile-pic-container {
+/* .profile-pic-container {
   border-radius: 50%;
   width: 380px;
   height: 380px;
@@ -827,6 +827,60 @@ html {
   box-shadow: 0 5px 5px 5px rgba(13, 110, 253, 0.2);
   animation: animate 5s ease-in-out infinite;
   transition: all 1s ease-in-out;
+} */
+
+.profile-pic-container {
+  border-radius: 50%;
+  width: 380px;
+  height: 380px;
+  margin-top: 12%;
+  margin-left: 25%;
+  background-image: url("./Assets/mathi.JPG");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 5px 5px 5px rgba(13, 110, 253, 0.2);
+  animation: animate 5s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+}
+
+/* Tablets */
+@media (max-width: 991px) {
+  .profile-pic-container {
+    width: 280px;
+    height: 280px;
+    margin: 40px auto 0;
+    margin-left: auto;
+  }
+}
+
+/* Large phones */
+@media (max-width: 767px) {
+  .profile-pic-container {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .profile-pic-container {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+  }
+
+  .home-content {
+    padding: 0 ;
+  }
+  .home-about-section{
+    padding: 0;
+  }
+
+  .about-section{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 @keyframes animate {
