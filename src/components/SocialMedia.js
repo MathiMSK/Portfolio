@@ -39,16 +39,6 @@ function SocialMedia() {
           <FaLinkedinIn className="social-icon" />
         </a>
       </li>
-      {/* <li className="social-icons">
-        <a
-          href="https://www.instagram.com/sunil.yadav84/"
-          target="_blank"
-          rel="noreferrer"
-          className="icon-colour home-social-icons"
-        >
-          <AiFillInstagram className="social-icon" />
-        </a>
-      </li> */}
       <li className="social-icons">
         <a
           href="mailto:mathimsk8@gmail.com"
