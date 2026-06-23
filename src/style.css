@@ -829,28 +829,6 @@ html {
   transition: all 1s ease-in-out;
 }
 
-@media (max-width: 1024px) {
-  .profile-pic-container {
-    width: 380px;
-    height: 380px;
-    margin-left: 0;
-  }
-}
-
-@media (max-width: 767px) {
-  .profile-pic-container {
-    width: 300px;
-    height: 300px;
-  }
-}
-
-@media (max-width: 425px) {
-  .profile-pic-container {
-    width: 200px;
-    height: 200px;
-  }
-}
-
 @keyframes animate {
   0%,
   100% {
