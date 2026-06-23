@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/mathi.JPG";
 import SocialMedia from "../SocialMedia";
 import TypeWriter from "./TypeWriter";
-
+  
 function Home() {
   return (
     <section>
